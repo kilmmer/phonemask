@@ -4,7 +4,7 @@ var n;
 
 $("#fone").keypress(function(){
     n = $("#fone").val();
-    console.log(n);
+    //console.log(n); //usado para testar a aplicação da máscara
 
     if(n[5] == "9"){
         $("#fone").mask("(00) 90000-0000");
